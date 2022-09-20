@@ -11,8 +11,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
-          primaryColor: Colors.lightBlue,
-          scaffoldBackgroundColor: Colors.white),
+        primaryColor: Colors.lightBlue,
+        scaffoldBackgroundColor: Colors.white,
+      ),
       home: const PriceScreen(),
     );
   }

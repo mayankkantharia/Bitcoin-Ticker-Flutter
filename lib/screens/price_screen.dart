@@ -7,10 +7,10 @@ class PriceScreen extends StatefulWidget {
   const PriceScreen({Key? key}) : super(key: key);
 
   @override
-  _PriceScreenState createState() => _PriceScreenState();
+  PriceScreenState createState() => PriceScreenState();
 }
 
-class _PriceScreenState extends State<PriceScreen> {
+class PriceScreenState extends State<PriceScreen> {
   String? selectedCurrency = 'AUD';
   bool isLoading = true;
 
